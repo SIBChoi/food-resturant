@@ -1,7 +1,9 @@
 .header {
-  width: 100%;
+  width: 80%;
   height: 80px;
   position: sticky;
+  margin: 0 auto;
+  top: 0;
 }
 
 .nav {
@@ -13,7 +15,6 @@
 }
 
 .logo {
-  margin-left: 6rem;
   display: flex;
   justify-content: center;
   font-size: 2rem;
@@ -41,15 +42,7 @@
   display: flex;
   gap: 1rem;
   align-items: center;
-  font-size: 1.2rem;
 }
-
-.orderBtn {
-  border: none;
-  background: #ffbe33;
-  padding: 0.8rem 3rem;
-  border-radius: 4.5rem;
-  text-transform: uppercase;
-  display: inline-block;
-  color: #fff;
+.icon {
+  font-size: 1.2rem;
 }

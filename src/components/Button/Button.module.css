@@ -1,0 +1,9 @@
+.btn {
+  border: none;
+  background: #ffbe33;
+  padding: 0.8rem 3rem;
+  border-radius: 4.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #fff;
+}
