@@ -1,0 +1,7 @@
+.offerSection {
+  width: 80%;
+  height: 30%;
+  margin: 4rem auto;
+  display: flex;
+  gap: 2rem;
+}

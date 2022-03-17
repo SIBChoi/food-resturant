@@ -2,9 +2,11 @@
   position: relative;
   width: 300%;
   display: flex;
-  margin: 8rem 10%;
+  margin: 16rem 10% 8rem 10%;
   left: 0;
   transition: left 1s;
+  height: 40vh;
+  overflow: hidden;
 }
 
 .icons {
@@ -19,6 +21,7 @@
 }
 
 .active {
+  transform: scale(1.2);
   width: 16px;
   height: 16px;
   background: orange;

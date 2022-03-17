@@ -3,7 +3,8 @@
   height: 80px;
   position: sticky;
   margin: 0 auto;
-  top: 0;
+  top: -20%;
+  z-index: 1;
 }
 
 .nav {

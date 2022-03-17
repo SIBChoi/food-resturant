@@ -1,0 +1,32 @@
+.foodSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(12, 12, 12);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.menulist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.menuItem {
+  padding: 7px 25px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.active {
+  color: #fff;
+  background: #222831;
+}

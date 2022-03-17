@@ -1,0 +1,48 @@
+.card {
+  flex: 1;
+  background-color: #222831;
+  color: #ffffff;
+  display: flex;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+}
+
+.cardimgDiv {
+  width: 30%;
+  border: 4px solid orange;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cardimg {
+  width: 100%;
+}
+
+.details {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.offerday {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+}
+
+.offerDiscount {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+}
+
+.offerDiscount small {
+  font-size: 1.3rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.icon {
+  margin-left: 1rem;
+}
