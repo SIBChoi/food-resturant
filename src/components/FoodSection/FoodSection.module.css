@@ -18,15 +18,42 @@
   gap: 2rem;
   font-size: 1.3rem;
   font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .menuItem {
   padding: 7px 25px;
   cursor: pointer;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+.menuItem::first-letter {
+  text-transform: uppercase;
 }
 
 .active {
   color: #fff;
   background: #222831;
+}
+
+.menuCardContainer {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(360px, 1fr));
+  gap: 2rem 2rem;
+  align-items: stretch;
+  /* grid-template-rows: repeat(3, minmax(200px, 1fr)); */
+}
+
+@media screen and (max-width: 1300px) {
+  .menuCardContainer {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    transition: all 3s;
+  }
+}
+
+.btn {
+  text-align: center;
+  margin: 3rem 0 5rem 0;
 }
