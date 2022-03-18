@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutSection from '../AboutSection/AboutSection';
 import FoodSection from '../FoodSection/FoodSection';
 import HeroSection from '../HeroSection/HeroSection';
 import OfferSection from '../OfferSection/OfferSection';
@@ -16,6 +17,7 @@ const Home = () => {
       </div>
       <OfferSection />
       <FoodSection />
+      <AboutSection />
     </>
   );
 };
