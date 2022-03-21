@@ -1,5 +1,7 @@
 import React from 'react';
 import AboutSection from '../AboutSection/AboutSection';
+import BookSection from '../BookSection/BookSection';
+import ClientSection from '../ClientSection/ClientSection';
 import FoodSection from '../FoodSection/FoodSection';
 import HeroSection from '../HeroSection/HeroSection';
 import OfferSection from '../OfferSection/OfferSection';
@@ -18,6 +20,8 @@ const Home = () => {
       <OfferSection />
       <FoodSection />
       <AboutSection />
+      <BookSection />
+      <ClientSection />
     </>
   );
 };

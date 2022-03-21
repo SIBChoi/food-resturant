@@ -1,0 +1,102 @@
+.clientSection {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* align-items: flex-start; */
+}
+
+.clientSectionHeader {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 600;
+  font-family: 'Dancing Script', cursive;
+}
+
+.clientSectionMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clientItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.clientDatil {
+  width: 95%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #222831;
+  color: #fff;
+}
+.text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.desc {
+  font-weight: 500;
+}
+
+.clientImgDiv {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+
+.clientImgDiv::after {
+  position: absolute;
+  content: '';
+  top: -16%;
+  left: 37%;
+  width: 0;
+  height: 0;
+  border-right: 14px solid #fff;
+  border-left: 14px solid #fff;
+  border-bottom: 14px solid orange;
+}
+
+.clientImgDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.btnZone {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+
+.btn {
+  border: none;
+  background: orange;
+  padding: 0.8rem 1.2rem;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
