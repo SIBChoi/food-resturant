@@ -1,37 +1,67 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 import { FaUser, FaShoppingCart, FaSearch } from 'react-icons/fa';
 import Button from '../Button/Button';
 
-const Header = () => {
+interface Props {
+  full: string;
+}
+
+const Header: React.FC<Props> = ({ full }) => {
+  const height = full || '0';
+
   return (
-    <div className="bg-img">
+    <div style={{ height }} className="bg-img">
       <header className={styles.header}>
         <nav className={styles.nav}>
-          <Link className={styles.logo} to="/">
+          <NavLink className={styles.logo} to="/">
             <span>Feane</span>
-          </Link>
+          </NavLink>
           <ul className={styles.navlist}>
             <li>
-              <Link className={styles.navlistItem} to="/">
+              <NavLink
+                style={({ isActive }) => ({
+                  color: isActive ? 'orange' : 'white',
+                })}
+                className={styles.navlistItem}
+                to="/"
+              >
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link className={styles.navlistItem} to="/">
+              <NavLink
+                style={({ isActive }) => ({
+                  color: isActive ? 'orange' : 'white',
+                })}
+                className={styles.navlistItem}
+                to="/menu"
+              >
                 MENU
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link className={styles.navlistItem} to="/">
+              <NavLink
+                style={({ isActive }) => ({
+                  color: isActive ? 'orange' : 'white',
+                })}
+                className={styles.navlistItem}
+                to="/about"
+              >
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link className={styles.navlistItem} to="/">
+              <NavLink
+                style={({ isActive }) => ({
+                  color: isActive ? 'orange' : 'white',
+                })}
+                className={styles.navlistItem}
+                to="/book"
+              >
                 BOOK TABLE
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <div className={styles.userOption}>
