@@ -1,0 +1,97 @@
+.footer {
+  width: 100%;
+  background: #222831;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  margin: 4rem 0;
+}
+
+.details {
+  display: flex;
+  gap: 2rem;
+  color: #fff;
+}
+
+.contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link {
+  margin-bottom: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: orange;
+}
+
+h5 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+}
+
+.desc {
+  flex: 1.5;
+  text-align: center;
+}
+
+.description {
+  opacity: 0.8;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+  color: #222831;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.open {
+  flex: 1;
+  text-align: center;
+}
+
+.open p {
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.copyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 4rem;
+}
+
+.copy {
+  color: #fff;
+  font-weight: 600;
+}
